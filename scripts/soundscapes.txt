@@ -1,4 +1,4 @@
-// DSP Effects
+// dsp_player Effects
 // 0 : "Normal (off)"
 // 1 : "Generic"
 // 2 : "Metal Small"
@@ -61,293 +61,145 @@
 
 "Normal (off)"
 {
-	"dsp"	"0"
+	"dsp_player"	"0"
 }
 
 "Generic"
 {
-	"dsp"	"1"
-	// underlying area "tone"
-	"playlooping"
-	{
-		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/indoor1.wav"
-	}
+	"dsp_player"	"1"
 }
 
 "Metal Small"
 {
-	"dsp"	"1"
-	// underlying area "tone"
-	"playlooping"
-	{
-		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/indoor1.wav"
-	}
+	"dsp_player"	"1"
 }
 
 "Metal Medium"
 {
-	"dsp"	"1"
-	// underlying area "tone"
-	"playlooping"
-	{
-		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/indoor1.wav"
-	}
+	"dsp_player"	"1"
 }
 
 "Metal Large"
 {
-	"dsp"	"1"
-	// underlying area "tone"
-	"playlooping"
-	{
-		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/indoor1.wav"
-	}
+	"dsp_player"	"1"
 }
 
 "Tunnel Small"
 {
-	"dsp"	"1"
-	"playlooping"
-	{
-		"volume"	"0.4"
-		"wave"		"ambient/levels/canals/tunnel_wind_loop1.wav"
-		"pitch"		"100"
-	}
+	"dsp_player"	"1"
 }
 
 "Tunnel Medium"
 {
-	"dsp"	"1"
-	"playlooping"
-	{
-		"volume"	"0.4"
-		"wave"		"ambient/levels/canals/tunnel_wind_loop1.wav"
-		"pitch"		"100"
-	}
+	"dsp_player"	"1"
 }
 
 "Tunnel Large"
 {
-	"dsp"	"1"
-	"playlooping"
-	{
-		"volume"	"0.4"
-		"wave"		"ambient/levels/canals/tunnel_wind_loop1.wav"
-		"pitch"		"100"
-	}
+	"dsp_player"	"1"
 }
 
 "Chamber Small"
 {
-	"dsp"	"1"
-	// underlying area "tone"
-	"playlooping"
-	{
-		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/indoor1.wav"
-	}
+	"dsp_player"	"1"
 }
 
 "Chamber Medium"
 {
-	"dsp"	"1"
-	// underlying area "tone"
-	"playlooping"
-	{
-		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/indoor1.wav"
-	}
+	"dsp_player"	"1"
 }
 
 "Chamber Large"
 {
-	"dsp"	"1"
-	// underlying area "tone"
-	"playlooping"
-	{
-		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/indoor1.wav"
-	}
+	"dsp_player"	"1"
 }
 
 "Bright Small"
 {
-	"dsp"	"1"
-	// underlying area "tone"
-	"playlooping"
-	{
-		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/indoor1.wav"
-	}
+	"dsp_player"	"1"
 }
 
 "Bright Medium"
 {
-	"dsp"	"1"
-	// underlying area "tone"
-	"playlooping"
-	{
-		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/indoor1.wav"
-	}
+	"dsp_player"	"1"
 }
 
 "Bright Large"
 {
-	"dsp"	"1"
-	// underlying area "tone"
-	"playlooping"
-	{
-		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/indoor1.wav"
-	}
+	"dsp_player"	"1"
 }
 
 "Water 1"
 {
-	"dsp"	"14"
+	"dsp_player"	"14"
 }
 
 "Water 2"
 {
-	"dsp"	"15"
+	"dsp_player"	"15"
 }
 
 "Water 3"
 {
-	"dsp"	"16"
+	"dsp_player"	"16"
 }
 
 "Concrete Small"
 {
-	"dsp"	"1"
-	// underlying area "tone"
-	"playlooping"
-	{
-		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/indoor1.wav"
-	}
+	"dsp_player"	"1"
 }
 
 "Concrete Medium"
 {
-	"dsp"	"1"
-	// underlying area "tone"
-	"playlooping"
-	{
-		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/indoor1.wav"
-	}
+	"dsp_player"	"1"
 }
 
 "Concrete Large"
 {
-	"dsp"	"1"
-	// underlying area "tone"
-	"playlooping"
-	{
-		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/indoor1.wav"
-	}
+	"dsp_player"	"1"
 }
 
 "Big 1"
 {
-	"dsp"	"1"
+	"dsp_player"	"1"
 }
 
 "Big 2"
 {
-	"dsp"	"1"
+	"dsp_player"	"1"
 }
 
 "Big 3"
 {
-	"dsp"	"1"
+	"dsp_player"	"1"
 }
 
 "Cavern Small"
 {
-	"dsp"	"1"
-	"playlooping"
-	{
-		"volume"	"0.4"
-		"wave"		"ambient/levels/canals/tunnel_wind_loop1.wav"
-		"pitch"		"100"
-	}
+	"dsp_player"	"1"
 }
 
 "Cavern Medium"
 {
-	"dsp"	"1"
-	"playlooping"
-	{
-		"volume"	"0.4"
-		"wave"		"ambient/levels/canals/tunnel_wind_loop1.wav"
-		"pitch"		"100"
-	}
+	"dsp_player"	"1"
 }
 
 "Cavern Large"
 {
-	"dsp"	"1"
-	"playlooping"
-	{
-		"volume"	"0.4"
-		"wave"		"ambient/levels/canals/tunnel_wind_loop1.wav"
-		"pitch"		"100"
-	}
+	"dsp_player"	"1"
 }
 
 "Weirdo 1"
 {
-	"dsp"	"26"	
-	// underlying area "tone"
-	"playlooping"
-	{
-		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/indoor1.wav"
-	}
+	"dsp_player"	"26"
 }
 
 "Weirdo 2"
 {
-	"dsp"	"27"	
-	// underlying area "tone"
-	"playlooping"
-	{
-		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/indoor1.wav"
-	}
+	"dsp_player"	"27"
 }
 
 "Weirdo 3"
 {
-	"dsp"	"28"	
-	// underlying area "tone"
-	"playlooping"
-	{
-		"volume"	"0.5"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/indoor1.wav"
-	}
+	"dsp_player"	"28"
 }
