@@ -12,6 +12,9 @@
 			
 			"dedicated"		"hl1/hl1_sound_vo_english.vpk"
 			"dedicated"		"hl1/hl1_pak.vpk"
+
+			"local"			"hl1"
+			"dedicated"		"hl1"
 		}
 	}
 	"Half-Life Deathmatch: Source"
