@@ -2005,10 +2005,9 @@
 
 	"rndwave"
 	{
-		"wave"	"physics/wood/wood_crate_break1.wav"
-		"wave"	"physics/wood/wood_crate_break2.wav"
-		"wave"	"physics/wood/wood_crate_break3.wav"
-		"wave"	"physics/wood/wood_crate_break4.wav"
+		"wave"	"debris/bustcrate1.wav"
+		"wave"	"debris/bustcrate2.wav"
+		"wave"	"debris/bustcrate3.wav"
 	}
 }
 
@@ -2020,7 +2019,7 @@
 
 	"rndwave"
 	{
-		"wave"	"physics/flesh/flesh_bloody_break.wav"
+		"wave"	"common/bodysplat.wav"
 	}
 }
 
@@ -2058,9 +2057,8 @@
 
 	"rndwave"
 	{
-		"wave"	"physics/glass/glass_largesheet_break1.wav"
-		"wave"	"physics/glass/glass_largesheet_break2.wav"
-		"wave"	"physics/glass/glass_largesheet_break3.wav"
+		"wave"	"debris/bustglass1.wav"
+		"wave"	"debris/bustglass2.wav"
 	}
 }
 
@@ -2072,8 +2070,8 @@
 
 	"rndwave"
 	{
-		"wave"	"physics/concrete/concrete_break2.wav"
-		"wave"	"physics/concrete/concrete_break3.wav"
+		"wave"	"debris/bustconcrete1.wav"
+		"wave"	"debris/bustconcrete2.wav"
 	}
 }
 
@@ -2085,8 +2083,7 @@
 
 	"rndwave"
 	{
-		"wave"	"physics/plaster/ceilingtile_break1.wav"
-		"wave"	"physics/plaster/ceilingtile_break2.wav"
+		"wave"	"debris/bustceiling.wav"
 	}
 }
 
@@ -2097,10 +2094,9 @@
 	"volume"		"0.7"
 	"rndwave"
 	{
-		"wave"	"physics/wood/wood_plank_break1.wav"
-		"wave"	"physics/wood/wood_plank_break2.wav"
-		"wave"	"physics/wood/wood_plank_break3.wav"
-		"wave"	"physics/wood/wood_plank_break4.wav"
+		"wave"	"debris/wood1.wav"
+		"wave"	"debris/wood2.wav"
+		"wave"	"debris/wood3.wav"
 	}
 }
 
@@ -2111,9 +2107,8 @@
 	"volume"		"0.4"
 	"rndwave"
 	{
-		"wave"	"physics/body/body_medium_break2.wav"
-		"wave"	"physics/body/body_medium_break3.wav"
-		"wave"	"physics/body/body_medium_break4.wav"
+		"wave"	"weapons/bullet_hit1.wav"
+		"wave"	"weapons/bullet_hit2.wav"
 	}
 }
 
@@ -2124,8 +2119,9 @@
 	"volume"		"0.7"
 	"rndwave"
 	{
-		"wave"	"physics/metal/metal_box_break1.wav"
-		"wave"	"physics/metal/metal_box_break2.wav"
+		"wave"	"debris/metal1.wav"
+		"wave"	"debris/metal2.wav"
+		"wave"	"debris/metal3.wav"
 	}
 }
 
@@ -2136,7 +2132,9 @@
 	"volume"		"0.7"
 	"rndwave"
 	{
-		"wave"	"physics/concrete/concrete_break2.wav"
+		"wave"	"debris/concrete1.wav"
+		"wave"	"debris/concrete2.wav"
+		"wave"	"debris/concrete3.wav"
 
 	}
 }
@@ -2148,9 +2146,9 @@
 	"volume"		"0.7"
 	"rndwave"
 	{
-		"wave"	"physics/glass/glass_cup_break1.wav"
-		"wave"	"physics/glass/glass_cup_break2.wav"
-		"wave"	"physics/glass/glass_bottle_break2.wav"
+		"wave"	"debris/glass1.wav"
+		"wave"	"debris/glass2.wav"
+		"wave"	"debris/glass3.wav"
 	}
 }
 
@@ -2179,9 +2177,9 @@
 	"channel"	"CHAN_STATIC"
 	"rndwave"
 	{
-		"wave"	"physics/glass/glass_impact_hard1.wav"
-		"wave"	"physics/glass/glass_impact_hard2.wav"
-		"wave"	"physics/glass/glass_impact_hard3.wav"
+		"wave"	"debris/glass1.wav"
+		"wave"	"debris/glass2.wav"
+		"wave"	"debris/glass3.wav"
 	}
 }
 
@@ -2193,9 +2191,9 @@
 	"channel"	"CHAN_STATIC"
 	"rndwave"
 	{
-		"wave" "physics/metal/metal_box_impact_hard1.wav"
-		"wave" "physics/metal/metal_box_impact_hard2.wav"
-		"wave" "physics/metal/metal_box_impact_hard3.wav"
+		"wave"	"debris/metal1.wav"
+		"wave"	"debris/metal2.wav"
+		"wave"	"debris/metal3.wav"
 	}
 }
 
@@ -2207,10 +2205,12 @@
 	"channel"	"CHAN_STATIC"
 	"rndwave"
 	{
-		"wave"	"physics/flesh/flesh_squishy_impact_hard1.wav"
-		"wave"	"physics/flesh/flesh_squishy_impact_hard2.wav"
-		"wave"	"physics/flesh/flesh_squishy_impact_hard3.wav"
-		"wave"	"physics/flesh/flesh_squishy_impact_hard4.wav"	
+		"wave"	"debris/flesh1.wav"
+		"wave"	"debris/flesh2.wav"
+		"wave"	"debris/flesh3.wav"
+		"wave"	"debris/flesh4.wav"
+		"wave"	"debris/flesh5.wav"
+		"wave"	"debris/flesh6.wav"
 	}
 }
 
@@ -2222,9 +2222,9 @@
 	"channel"	"CHAN_STATIC"
 	"rndwave"
 	{
-		"wave" "physics/wood/wood_plank_impact_hard1.wav"
-		"wave" "physics/wood/wood_plank_impact_hard2.wav"
-		"wave" "physics/wood/wood_plank_impact_hard3.wav"
+		"wave"	"debris/wood1.wav"
+		"wave"	"debris/wood2.wav"
+		"wave"	"debris/wood3.wav"
 	}
 }
 
@@ -2252,15 +2252,15 @@
 	"channel"	"CHAN_STATIC"
 	"rndwave"
 	{
-		"wave" "weapons/fx/tink/shotgun_shell1.wav"
-		"wave" "weapons/fx/tink/shotgun_shell2.wav"
-		"wave" "weapons/fx/tink/shotgun_shell3.wav"
+		"wave" "weapons/sshell1.wav"
+		"wave" "weapons/sshell2.wav"
+		"wave" "weapons/sshell3.wav"
 	}
 }
 
 "Bounce.Shell"
 {
-	"pitch"		"PITCH_NORM"
+	"pitch"		"95,105"
 	"volume"	"0.5"
 	"soundlevel"		"SNDLVL_NORM"
 	"channel"	"CHAN_STATIC"
@@ -2280,7 +2280,9 @@
 	"channel"	"CHAN_STATIC"
 	"rndwave"
 	{
-		"wave"	"physics/concrete/concrete_break2.wav"	
+		"wave"	"debris/concrete1.wav"	
+		"wave"	"debris/concrete2.wav"	
+		"wave"	"debris/concrete3.wav"	
 	}
 }
 
