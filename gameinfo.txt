@@ -10,7 +10,7 @@
 
 	FileSystem
 	{
-		SteamAppId				280
+		SteamAppId				220
 		
 		SearchPaths
 		{
