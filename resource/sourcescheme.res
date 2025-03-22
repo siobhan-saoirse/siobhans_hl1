@@ -194,6 +194,10 @@ Scheme
 		MainMenu.Backdrop			"0 0 0 156"
 		Console.TextColor			"OffWhite"
 		Console.DevTextColor		"White"
+		Frame.FocusTransitionEffectTime	"0.3"							// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.3"				[$WIN32]	// time it takes for a window to fade in/out on open/close
+		Frame.TransitionEffectTime		"0.2"				[$X360]		// time it takes for a window to fade in/out on open/close
+		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 	}
 
 	//
