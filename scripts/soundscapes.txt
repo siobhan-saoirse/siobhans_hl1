@@ -62,141 +62,337 @@
 "Normal (off)"
 {
 	"dsp_player"	"0"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient/atmosphere/indoor1.wav"
+		"pitch"		"100"
+	}
 }
 
 "Generic"
 {
 	"dsp_player"	"1"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient/atmosphere/indoor2.wav"
+		"pitch"		"100"
+	}
 }
 
 "Metal Small"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"2"
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"		"100"
+
+		"wave"		"ambient/atmosphere/hole_amb3.wav"
+	}
 }
 
 "Metal Medium"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"3"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		//"wave"		"ambient/atmosphere/underground.wav"
+		"wave"		"ambient/atmosphere/undercity_loop1.wav"
+		"pitch"		"80"
+	}
 }
 
 "Metal Large"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"4"
 }
 
 "Tunnel Small"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"5"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		//"wave"		"ambient/atmosphere/underground.wav"
+		"wave"		"ambient/atmosphere/undercity_loop1.wav"
+		"pitch"		"80"
+	}
 }
 
 "Tunnel Medium"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"6"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		//"wave"		"ambient/atmosphere/underground.wav"
+		"wave"		"ambient/atmosphere/undercity_loop1.wav"
+		"pitch"		"80"
+	}
 }
 
 "Tunnel Large"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"7"
 }
 
 "Chamber Small"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"8"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		//"wave"		"ambient/atmosphere/underground.wav"
+		"wave"		"ambient/atmosphere/undercity_loop1.wav"
+		"pitch"		"80"
+	}
 }
 
 "Chamber Medium"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"9"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		//"wave"		"ambient/atmosphere/underground.wav"
+		"wave"		"ambient/atmosphere/undercity_loop1.wav"
+		"pitch"		"80"
+	}
 }
 
 "Chamber Large"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"10"
 }
 
 "Bright Small"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"11"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		//"wave"		"ambient/atmosphere/underground.wav"
+		"wave"		"ambient/atmosphere/undercity_loop1.wav"
+		"pitch"		"80"
+	}
 }
 
 "Bright Medium"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"12"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		//"wave"		"ambient/atmosphere/underground.wav"
+		"wave"		"ambient/atmosphere/undercity_loop1.wav"
+		"pitch"		"80"
+	}
+
 }
 
 "Bright Large"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"13"
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"wave"		"ambient/levels/canals/tunnel_wind_loop1.wav"
+	}
 }
 
 "Water 1"
 {
 	"dsp_player"	"14"
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"60"
+		"soundlevel" "SNDLVL_40dB"
+		"attenuation"	"0"
+		"wave"		"ambient/levels/canals/water_rivulet_loop2.wav"
+	}
+
 }
 
 "Water 2"
 {
 	"dsp_player"	"15"
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"60"
+		"soundlevel" "SNDLVL_40dB"
+		"attenuation"	"0"
+		"wave"		"ambient/levels/canals/water_rivulet_loop2.wav"
+	}
+
 }
 
 "Water 3"
 {
 	"dsp_player"	"16"
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"60"
+		"soundlevel" "SNDLVL_40dB"
+		"attenuation"	"0"
+		"wave"		"ambient/levels/canals/water_rivulet_loop2.wav"
+	}
+
 }
 
 "Concrete Small"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"17"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient/atmosphere/cargo_hold2.wav"
+		"pitch"		"100"
+	}
 }
 
 "Concrete Medium"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"18"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		//"wave"		"ambient/atmosphere/underground.wav"
+		"wave"		"ambient/atmosphere/undercity_loop1.wav"
+		"pitch"		"80"
+	}
 }
 
 "Concrete Large"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"19"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		//"wave"		"ambient/atmosphere/underground.wav"
+		"wave"		"ambient/atmosphere/undercity_loop1.wav"
+		"pitch"		"80"
+	}
 }
 
 "Big 1"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"20"
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"wave"		"ambient/levels/canals/tunnel_wind_loop1.wav"
+	}
 }
 
 "Big 2"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"21"
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"wave"		"ambient/machines/courtyard_mach_loop.wav"
+	}
 }
 
 "Big 3"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"22"
+	"playrandom"
+	{
+		"time"		"15,30"
+		"volume"	"0.6"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/wind/wind_med1.wav"
+			"wave"	"ambient/wind/wind_med2.wav"
+		}
+	}	
+	"playrandom"
+	{
+		"time"		"5,20"
+		"volume"	"0.6"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/atmosphere/city_skypass1.wav"
+			"wave"	"ambient/machines/heli_pass1.wav"
+			"wave"	"ambient/machines/heli_pass2.wav"
+			"wave"	"ambient/machines/heli_pass_quick1.wav"
+			"wave"	"ambient/machines/heli_pass_quick2.wav"
+			"wave"	"ambient/machines/heli_pass_distant1.wav"
+			"wave"	"ambient/machines/aircraft_distant_flyby1.wav"
+			"wave"	"ambient/machines/aircraft_distant_flyby3.wav"
+		}
+	}
 }
 
 "Cavern Small"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"23"
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"wave"		"ambient/levels/canals/tunnel_wind_loop1.wav"
+	}
 }
 
 "Cavern Medium"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"24"
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"wave"		"ambient/levels/canals/tunnel_wind_loop1.wav"
+	}
 }
 
 "Cavern Large"
 {
-	"dsp_player"	"1"
+	"dsp_player"	"25"
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"wave"		"ambient/levels/canals/tunnel_wind_loop1.wav"
+	}
 }
 
 "Weirdo 1"
 {
 	"dsp_player"	"26"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		//"wave"		"ambient/atmosphere/underground.wav"
+		"wave"		"ambient/atmosphere/undercity_loop1.wav"
+		"pitch"		"80"
+	}
 }
 
 "Weirdo 2"
 {
 	"dsp_player"	"27"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		//"wave"		"ambient/atmosphere/underground.wav"
+		"wave"		"ambient/atmosphere/undercity_loop1.wav"
+		"pitch"		"80"
+	}
 }
 
 "Weirdo 3"
