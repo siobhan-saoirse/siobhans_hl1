@@ -31,10 +31,6 @@
 			// VPK and we can avoid making thousands of file system calls to attempt to open files
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
 			// system call.)
-			game+mod				|all_source_engine_paths|hl1
-			game_lv				|all_source_engine_paths|hl1/hl1_lv.vpk
-			game+mod			|all_source_engine_paths|hl1/hl1_sound_vo_english.vpk
-			game+mod			|all_source_engine_paths|hl1/hl1_pak.vpk
 			game				|all_source_engine_paths|hl2
 			game				|all_source_engine_paths|hl2/hl2_textures.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
