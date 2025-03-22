@@ -31,11 +31,11 @@
 			// VPK and we can avoid making thousands of file system calls to attempt to open files
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
 			// system call.)
-			game				|all_source_engine_paths|hl2
-			game				|all_source_engine_paths|hl2/hl2_textures.vpk
-			game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
-			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
-			game				|all_source_engine_paths|hl2/hl2_misc.vpk
+			game+mod+vgui				|all_source_engine_paths|hl2
+			game+mod+vgui				|all_source_engine_paths|hl2/hl2_textures.vpk
+			game+mod+vgui				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
+			game+mod+vgui				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
+			game+mod+vgui				|all_source_engine_paths|hl2/hl2_misc.vpk
 			platform			|all_source_engine_paths|platform/platform_misc.vpk
 
 			// Random files downloaded from gameservers go into a seperate directory, so
