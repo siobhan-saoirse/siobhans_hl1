@@ -1176,11 +1176,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"	"physics/body/body_medium_impact_soft1.wav"
-		"wave"	"physics/body/body_medium_impact_soft2.wav"
-		"wave"	"physics/body/body_medium_impact_soft5.wav"
-		"wave"	"physics/body/body_medium_impact_soft6.wav"
-		"wave"	"physics/body/body_medium_impact_soft7.wav"
+		"wave"	"common/bodydrop1.wav"
+		"wave"	"common/bodydrop2.wav"
 	}
 }
 
@@ -1193,12 +1190,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"	"physics/body/body_medium_impact_hard1.wav"
-		"wave"	"physics/body/body_medium_impact_hard2.wav"
-		"wave"	"physics/body/body_medium_impact_hard3.wav"
-		"wave"	"physics/body/body_medium_impact_hard4.wav"
-		"wave"	"physics/body/body_medium_impact_hard5.wav"
-		"wave"	"physics/body/body_medium_impact_hard6.wav"
+		"wave"	"common/bodydrop3.wav"
+		"wave"	"common/bodydrop4.wav"
 	}
 }
 
@@ -1206,14 +1199,11 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"volume"		"0.7"
-	"pitch"			"PITCH_NORM"
+	"pitch"			"96,100"
 	"rndwave"
 	{
-		"wave"	"physics/flesh/flesh_impact_bullet1.wav"
-		"wave"	"physics/flesh/flesh_impact_bullet2.wav"
-		"wave"	"physics/flesh/flesh_impact_bullet3.wav"
-		"wave"	"physics/flesh/flesh_impact_bullet4.wav"
-		"wave"	"physics/flesh/flesh_impact_bullet5.wav"
+		"wave"	"weapons/bullet_hit1.wav"
+		"wave"	"weapons/bullet_hit2.wav"
 	}
 }
 
@@ -1222,7 +1212,7 @@
 	"soundlevel"		"SNDLVL_70dB"
 	"volume"		"0.5"
 	"pitch"			"PITCH_NORM"
-	"wave"		"physics/body/body_medium_scrape_rough_loop1.wav"
+	"wave"		"physics/flesh/flesh_scrape_rough_loop.wav"
 }
 
 
