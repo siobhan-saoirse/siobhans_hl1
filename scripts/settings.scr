@@ -128,4 +128,11 @@ DESCRIPTION SERVER_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
+
+	"hl1_coop"
+	{
+		"Cooperative mode"
+		{ BOOL }
+		{ "1" }
+	}
 }

@@ -1,5 +1,3 @@
-
-
 //
 // TRACKER SCHEME RESOURCE FILE
 //
@@ -176,24 +174,6 @@ Scheme
 
 		"SectionTextColor"		"BrightControlText"	// text color for IN-GAME, ONLINE, OFFLINE sections of buddy list
 		"SectionDividerColor"	"BorderDark"		// color of line that runs under section name in buddy list
-
-		Menu.TextColor					"White"
-		Menu.BgColor					"160 160 160 64"
-		Menu.ArmedTextColor				"Black"
-		Menu.ArmedBgColor				"Orange"
-		Menu.TextInset					"6"
-
-		// scheme-specific colors
-		MainMenu.TextColor			"White"				[$WIN32]
-		MainMenu.TextColor			"200 200 200 255"	[$X360]
-		MainMenu.ArmedTextColor		"200 200 200 255"	[$WIN32]
-		MainMenu.ArmedTextColor		"White"				[$X360]
-		MainMenu.DepressedTextColor	"192 186 80 255"
-		MainMenu.MenuItemHeight		"22"
-		MainMenu.Inset				"32"
-		MainMenu.Backdrop			"0 0 0 156"
-		Console.TextColor			"OffWhite"
-		Console.DevTextColor		"White"
 	}
 
 	//
@@ -339,19 +319,6 @@ Scheme
 				"weight"	"700"
 				"antialias"	"1"
 				"yres"	"1 10000"
-			}
-		}
-		"ConsoleText"
-		{
-			"1"
-			{
-				"name"		 "Lucida Console" [!$OSX]
-				"name"		 "Lucida Console" [$X360]
-				"name"		 "Verdana" [$OSX]
-				"tall"		"11" [$OSX]
-				"tall"		"14" [$LINUX]
-				"tall"		"10"
-				"weight"	"500"
 			}
 		}
 	}

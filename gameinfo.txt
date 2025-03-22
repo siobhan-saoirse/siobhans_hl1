@@ -2,7 +2,7 @@
 {
 	game					"Siobhan's Half-Life: Source"
 	title	"HALF-LIFE"
-	type 					multiplayer_only
+	type 					both
 	icon		"resource/icon"
 	supportsvr	0
 
