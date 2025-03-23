@@ -14,6 +14,6 @@ exec autoexec.cfg
 stuffcmds
 
 // display the startup level
-startupmenu
+//startupmenu
 
 sv_unlockedchapters 99
