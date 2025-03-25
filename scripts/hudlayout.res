@@ -300,4 +300,15 @@
 		"text_xpos"			"33"
 	}
 	
+	
+	"CHudVote"
+	{
+		"fieldName"		"CHudVote"
+		"xpos"			"0"			
+		"ypos"			"0"
+		"wide"			"640"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+	}
 }

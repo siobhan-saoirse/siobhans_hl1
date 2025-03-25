@@ -1,4 +1,5 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "models/player/PLAYER_Chrome1"
+	"$basetexture" "halflife/black"
+	"$envmap" "models/player/PLAYER_Chrome1"
 }

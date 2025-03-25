@@ -1,4 +1,5 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "models/hassassin/chrome"
+	"$basetexture" "halflife/black"
+	"$envmap" "models/hassassin/chrome"
 }

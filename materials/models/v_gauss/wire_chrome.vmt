@@ -1,4 +1,5 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "models/v_gauss/wire_chrome"
+	"$basetexture" "halflife/black"
+	"$envmap" "models/v_gauss/wire_chrome"
 }
