@@ -3544,7 +3544,7 @@
 
 "Player.WeaponSelected"
 {
-	"channel"	"CHAN_STATIC"
+	"channel"	"CHAN_ITEM"
 	"volume"	"0.5"
 	"soundlevel"  "SNDLVL_NONE"
 	"pitch"	"PITCH_NORM"
@@ -3554,7 +3554,7 @@
 
 "Player.WeaponSelectionMoveSlot"
 {
-	"channel"	"CHAN_STATIC"
+	"channel"	"CHAN_ITEM"
 	"volume"	"0.5"
 	"soundlevel"  "SNDLVL_NONE"
 	"pitch"	"PITCH_NORM"
@@ -3564,7 +3564,7 @@
 
 "Player.WeaponSelectionOpen"
 {
-	"channel"	"CHAN_STATIC"
+	"channel"	"CHAN_ITEM"
 	"volume"	"0.5"
 	"soundlevel"  "SNDLVL_NONE"
 	"pitch"	"PITCH_NORM"
@@ -3574,7 +3574,7 @@
 
 "Player.WeaponSelectionClose"
 {
-	"channel"	"CHAN_STATIC"
+	"channel"	"CHAN_ITEM"
 	"volume"	"0.5"
 	"soundlevel"  "SNDLVL_NONE"
 	"pitch"	"PITCH_NORM"
