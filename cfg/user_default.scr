@@ -1,0 +1,229 @@
+
+VERSION 1.0
+
+DESCRIPTION INFO_OPTIONS
+{
+
+	"cl_playermodel"
+	{
+		"#GameUI_PlayerModel"
+		{
+
+			LIST
+			"barney" "models/barney.mdl"
+			"gina" "models/gina.mdl"
+			"gman" "models/gman.mdl"
+			"gordon" "models/gordon.mdl"
+			"helmet" "models/helmet.mdl"
+			"hgrunt" "models/hgrunt.mdl"
+			"robo" "models/robo.mdl"
+			"scientist" "models/scientist.mdl"
+			"zombie" "models/zombie.mdl"
+			"bbbbarney" "models/bbbbarney.mdl"
+			"ivan" "models/ivan.mdl"
+			"skeleton" "models/skeleton.mdl"
+			"tmcm" "models/tmcm.mdl"
+			"recon" "models/recon.mdl"
+		}
+
+		{ "1" }
+
+	}
+	
+	"category1"
+	{
+		"Gameplay Options"
+		{ CATEGORY }
+	}
+
+	"cl_wpn_sway_interp"
+	{
+		"Weapon sway interp"
+		{ SLIDER 0 0.1 }
+		{ "0" }
+	}
+
+	"cl_wpn_sway_scale"
+	{
+		"Weapon sway scale"
+		{ SLIDER 0 5 }
+		{ "5" }
+	}
+
+	"hl1_cl_bob_won"
+	{
+		"Use WON viewbob"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_new_impact_effects"
+	{
+		"Use Newer Impact Effects"
+		"Uses an updated particle system to render bullet impact effects."
+		{ BOOL }
+		{ "1" }
+	}
+
+	"r_lod"
+	{
+		"Object LODs"
+		"Determines the level of detail used on objects."
+		{ LIST
+			"Detail is determined by distance" "-1"
+			"Force high detail models" "0"
+			"Force low detail models" "2"
+		}
+		{ "-1" }
+	}
+	
+	"category3"
+	{
+		"Performance"
+		{ CATEGORY }
+	}
+
+	"r_3dsky"
+	{
+		"Draw 3D Skybox"
+		"Sets whether to render the 3D environment used for distant scenery."
+		{ BOOL }
+		{ "0" }
+	}	
+
+	"cl_disablehtmlmotd"
+	{
+		"#Valve_DisableHTMLMOTD"
+		"#Tooltip_DisableHTMLMOTD"
+		{ BOOL }
+		{ "0" }
+	}	
+
+	"mat_viewportscale"
+	{
+		"Viewport Scale"
+		"Scales the resolution of the game to reduce GPU requirements"
+		{ NUMBER 0.001563 1 }
+		{ "1" }
+	}
+
+	"cl_jiggle_bone_framerate_cutoff"
+	{
+		"Jigglebone Minimum Framerate"
+		"If the frames per second drops below this value, disables jigglebone simulation."
+		{ NUMBER 0.001563 1 }
+		{ "1" }
+	}
+
+	"fps_max"
+	{
+		"Framerate Limit"
+		"The upper limit to the rendered FPS. Option does not save between sessions."
+		{ NUMBER 0 999 }
+		{ "300" }
+	}
+
+	"mp_decals"
+	{
+		"#Valve_Multiplayer_Decal_Limit"
+		"#Tooltip_Multiplayer_Decal_Limit"
+		{ NUMBER 0 2048 }
+		{ "200" }
+	}
+
+	"engine_no_focus_sleep"
+	{
+		"Limit FPS while unfocused"
+		"When the game window is unfocused, sets the game in a low performance state."
+		{ LIST
+			"Disabled" "0"
+			"Enabled" "50"
+		}
+		{ "50" }
+	}
+
+
+	"category4"
+	{
+		"Networking Settings"
+		{ CATEGORY }
+	}
+
+	"cl_interp"
+	{
+		"Interpolation Amount"
+		"The minimum interpolation delay in milliseconds. Set to 0 to use 'Interp. Ratio' instead."
+		{ NUMBER 0.0 0.5 }
+		{ "0.1" }
+	}
+
+	"cl_interp_ratio"
+	{
+		"Interp. Ratio"
+		"The number of dropped packed to compensate for."
+		{ NUMBER 1 33 }
+		{ "2" }
+	}
+
+	"cl_updaterate"
+	{
+		"Update Rate"
+		"How often to receive updates from the server."
+		{ NUMBER 20 66 }
+		{ "20" }
+	}
+
+	"cl_cmdrate"
+	{
+		"Command Rate"
+		"How often inputs are sent to the server."
+		{ NUMBER 30 66 }
+		{ "30" }
+	}
+
+	"rate"
+	{
+		"Data Rate"
+		"The maximum download speed for received data, measured in bytes/second."
+		{ NUMBER 24576 1048576 }
+		{ "80000" }
+	}
+
+	"cl_allowupload"
+	{
+		"Upload Player Files"
+		"Upload custom files to other players, such as sprays."
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_allowdownload"
+	{
+		"Download Player Files"
+		"Download custom files from other players, such as sprays."
+		{ BOOL }
+		{ "1" }
+	}
+
+	"category5"
+	{
+		"#TF_OptionCategory_Misc"
+		{ CATEGORY }
+	}
+
+	"hud_takesshots"
+	{
+		"#game_takesshots"
+		"#Tooltip_takesshots"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_playerspraydisable"
+	{
+		"#GameUI_DisableSprays"
+		"#Tooltip_DisableSprays"
+		{ BOOL }
+		{ "1" }
+	}
+}
