@@ -2895,7 +2895,7 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"volume"		"0.7"
-	"pitch"			"PITCH_NORM"
+	"pitch"		"96,111"
 	"rndwave"
 	{
 		"wave"		"debris/wood1.wav"

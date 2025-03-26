@@ -226,4 +226,12 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
+	
+
+	"mat_filtertextures"
+	{
+		"Filter textures"
+		{ BOOL }
+		{ "0" }
+	}
 }
