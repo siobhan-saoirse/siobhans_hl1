@@ -35,13 +35,12 @@
 "Default.BulletImpact"
 {
 	"soundlevel"		"SNDLVL_75dB"
-	"pitch"			"PITCH_NORM"
+	"pitch"		"96,111"
 	"volume"			"0.7"
 	"rndwave"
 	{
-		"wave"		"physics/plastic/plastic_box_impact_hard1.wav"
-		"wave"		"physics/plastic/plastic_box_impact_hard2.wav"
-		"wave"		"physics/plastic/plastic_box_impact_hard3.wav"
+		"wave"		"player/pl_step1.wav"
+		"wave"		"player/pl_step2.wav"
 	}
 }
 
@@ -157,14 +156,12 @@
 "SolidMetal.BulletImpact"
 {
 	"soundlevel"		"SNDLVL_75dB"
-	"pitch"			"PITCH_NORM"
+	"pitch"		"96,111"
 	"volume"		"0.7"
 	"rndwave"
 	{
-		"wave"		"physics/metal/metal_solid_impact_bullet1.wav"
-		"wave"		"physics/metal/metal_solid_impact_bullet2.wav"
-		"wave"		"physics/metal/metal_solid_impact_bullet3.wav"
-		"wave"		"physics/metal/metal_solid_impact_bullet4.wav"
+		"wave"		"player/pl_metal1.wav"
+		"wave"		"player/pl_metal2.wav"
 	}
 }
 
@@ -225,13 +222,12 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"volume"		"0.7"
-	"pitch"			"PITCH_NORM"
+	"pitch"		"96,111"
 	"rndwave"
 	{
-		"wave"		"physics/surfaces/sand_impact_bullet1.wav"
-		"wave"		"physics/surfaces/sand_impact_bullet2.wav"
-		"wave"		"physics/surfaces/sand_impact_bullet3.wav"
-		"wave"		"physics/surfaces/sand_impact_bullet4.wav"
+		"wave"		"player/pl_dirt1.wav"
+		"wave"		"player/pl_dirt2.wav"
+		"wave"		"player/pl_dirt3.wav"
 	}
 }
 
@@ -377,12 +373,11 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"volume"		"0.5"
-	"pitch"			"PITCH_NORM"
+	"pitch"		"96,111"
 	"rndwave"
 	{
-		"wave"		"physics/metal/metal_sheet_impact_bullet1.wav"
-		"wave"		"physics/metal/metal_sheet_impact_bullet2.wav"
-		"wave"		"physics/metal/metal_solid_impact_bullet2.wav"
+		"wave"		"player/pl_grate1.wav"
+		"wave"		"player/pl_grate4.wav"
 	}
 }
 
@@ -656,13 +651,12 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"volume"		"0.7"
-	"pitch"			"PITCH_NORM"
+	"pitch"		"96,111"
 	"rndwave"
 	{
-		"wave"	"physics/glass/glass_impact_bullet1.wav"
-		"wave"	"physics/glass/glass_impact_bullet2.wav"
-		"wave"	"physics/glass/glass_impact_bullet3.wav"	
-		"wave"	"physics/glass/glass_impact_bullet4.wav"
+		"wave"		"debris/glass1.wav"
+		"wave"		"debris/glass2.wav"
+		"wave"		"debris/glass3.wav"
 	}
 }
 
@@ -779,17 +773,12 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"volume"		"0.7"
-	"pitch"			"PITCH_NORM"
+	"pitch"		"96,111"
 	"rndwave"
 	{
-		"wave"	"physics/glass/glass_impact_bullet1.wav"
-		"wave"	"physics/glass/glass_impact_bullet2.wav"
-		"wave"	"physics/metal/metal_computer_impact_bullet1.wav"
-		"wave"	"physics/metal/metal_computer_impact_bullet2.wav"
-		"wave"	"physics/metal/metal_computer_impact_bullet3.wav"
-		"wave"	"physics/plastic/plastic_box_impact_bullet1.wav"
-		"wave"	"physics/plastic/plastic_box_impact_bullet2.wav"
-		"wave"	"physics/plastic/plastic_box_impact_bullet3.wav"
+		"wave"		"debris/glass1.wav"
+		"wave"		"debris/glass2.wav"
+		"wave"		"debris/glass3.wav"
 	}
 }
 
@@ -851,10 +840,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"physics/concrete/concrete_impact_bullet1.wav"
-		"wave"		"physics/concrete/concrete_impact_bullet2.wav"
-		"wave"		"physics/concrete/concrete_impact_bullet3.wav"
-		"wave"		"physics/concrete/concrete_impact_bullet4.wav"
+		"wave"		"player/pl_step1.wav"
+		"wave"		"player/pl_step2.wav"
 	}
 }
 
@@ -2006,10 +1993,8 @@
 
 	"rndwave"
 	{
-		"wave"	"physics/wood/wood_crate_break1.wav"
-		"wave"	"physics/wood/wood_crate_break2.wav"
-		"wave"	"physics/wood/wood_crate_break3.wav"
-		"wave"	"physics/wood/wood_crate_break4.wav"
+		"wave"		"debris/bustcrate1.wav"
+		"wave"		"debris/bustcrate2.wav"
 	}
 }
 
@@ -2021,7 +2006,8 @@
 
 	"rndwave"
 	{
-		"wave"	"physics/flesh/flesh_bloody_break.wav"
+		"wave"		"debris/bustflesh1.wav"
+		"wave"		"debris/bustflesh2.wav"
 	}
 }
 
@@ -2033,8 +2019,8 @@
 
 	"rndwave"
 	{
-		"wave"	"ambient/energy/spark5.wav"
-		"wave"	"ambient/energy/spark6.wav"
+		"wave"		"debris/bustglass1.wav"
+		"wave"		"debris/bustglass2.wav"
 	}
 }
 
@@ -2046,8 +2032,8 @@
 
 	"rndwave"
 	{
-		"wave"	"physics/metal/metal_box_break1.wav"
-		"wave"	"physics/metal/metal_box_break2.wav"
+		"wave"		"debris/bustmetal1.wav"
+		"wave"		"debris/bustmetal2.wav"
 	}
 }
 
@@ -2059,9 +2045,8 @@
 
 	"rndwave"
 	{
-		"wave"	"physics/glass/glass_largesheet_break1.wav"
-		"wave"	"physics/glass/glass_largesheet_break2.wav"
-		"wave"	"physics/glass/glass_largesheet_break3.wav"
+		"wave"		"debris/bustglass1.wav"
+		"wave"		"debris/bustglass2.wav"
 	}
 }
 
@@ -2086,8 +2071,7 @@
 
 	"rndwave"
 	{
-		"wave"	"physics/plaster/ceilingtile_break1.wav"
-		"wave"	"physics/plaster/ceilingtile_break2.wav"
+		"wave"		"debris/bustceiling.wav"
 	}
 }
 
@@ -2098,10 +2082,9 @@
 	"volume"		"0.7"
 	"rndwave"
 	{
-		"wave"	"physics/wood/wood_plank_break1.wav"
-		"wave"	"physics/wood/wood_plank_break2.wav"
-		"wave"	"physics/wood/wood_plank_break3.wav"
-		"wave"	"physics/wood/wood_plank_break4.wav"
+		"wave"		"debris/wood1.wav"
+		"wave"		"debris/wood2.wav"
+		"wave"		"debris/wood3.wav"
 	}
 }
 
@@ -2112,9 +2095,13 @@
 	"volume"		"0.4"
 	"rndwave"
 	{
-		"wave"	"physics/body/body_medium_break2.wav"
-		"wave"	"physics/body/body_medium_break3.wav"
-		"wave"	"physics/body/body_medium_break4.wav"
+		"wave"		"debris/flesh1.wav"
+		"wave"		"debris/flesh2.wav"
+		"wave"		"debris/flesh3.wav"
+		"wave"		"debris/flesh4.wav"
+		"wave"		"debris/flesh5.wav"
+		"wave"		"debris/flesh6.wav"
+		"wave"		"debris/flesh7.wav"
 	}
 }
 
@@ -2125,8 +2112,9 @@
 	"volume"		"0.7"
 	"rndwave"
 	{
-		"wave"	"physics/metal/metal_box_break1.wav"
-		"wave"	"physics/metal/metal_box_break2.wav"
+		"wave"		"debris/metal1.wav"
+		"wave"		"debris/metal2.wav"
+		"wave"		"debris/metal3.wav"
 	}
 }
 
@@ -2137,7 +2125,9 @@
 	"volume"		"0.7"
 	"rndwave"
 	{
-		"wave"	"physics/concrete/concrete_break2.wav"
+		"wave"		"debris/concrete1.wav"
+		"wave"		"debris/concrete2.wav"
+		"wave"		"debris/concrete3.wav"
 
 	}
 }
@@ -2149,9 +2139,9 @@
 	"volume"		"0.7"
 	"rndwave"
 	{
-		"wave"	"physics/glass/glass_cup_break1.wav"
-		"wave"	"physics/glass/glass_cup_break2.wav"
-		"wave"	"physics/glass/glass_bottle_break2.wav"
+		"wave"		"debris/glass1.wav"
+		"wave"		"debris/glass2.wav"
+		"wave"		"debris/glass3.wav"
 	}
 }
 
@@ -2164,8 +2154,9 @@
 
 	"rndwave"
 	{
-		"wave"	"ambient/energy/spark5.wav"
-		"wave"	"ambient/energy/spark6.wav"
+		"wave"		"debris/glass1.wav"
+		"wave"		"debris/glass2.wav"
+		"wave"		"debris/glass3.wav"
 	}
 }
 
@@ -2180,9 +2171,9 @@
 	"channel"	"CHAN_STATIC"
 	"rndwave"
 	{
-		"wave"	"physics/glass/glass_impact_hard1.wav"
-		"wave"	"physics/glass/glass_impact_hard2.wav"
-		"wave"	"physics/glass/glass_impact_hard3.wav"
+		"wave"		"debris/glass1.wav"
+		"wave"		"debris/glass2.wav"
+		"wave"		"debris/glass3.wav"
 	}
 }
 
@@ -2194,9 +2185,9 @@
 	"channel"	"CHAN_STATIC"
 	"rndwave"
 	{
-		"wave" "physics/metal/metal_box_impact_hard1.wav"
-		"wave" "physics/metal/metal_box_impact_hard2.wav"
-		"wave" "physics/metal/metal_box_impact_hard3.wav"
+		"wave"		"debris/metal1.wav"
+		"wave"		"debris/metal2.wav"
+		"wave"		"debris/metal3.wav"
 	}
 }
 
@@ -2208,10 +2199,12 @@
 	"channel"	"CHAN_STATIC"
 	"rndwave"
 	{
-		"wave"	"physics/flesh/flesh_squishy_impact_hard1.wav"
-		"wave"	"physics/flesh/flesh_squishy_impact_hard2.wav"
-		"wave"	"physics/flesh/flesh_squishy_impact_hard3.wav"
-		"wave"	"physics/flesh/flesh_squishy_impact_hard4.wav"	
+		"wave"		"debris/flesh1.wav"
+		"wave"		"debris/flesh2.wav"
+		"wave"		"debris/flesh3.wav"
+		"wave"		"debris/flesh5.wav"
+		"wave"		"debris/flesh6.wav"
+		"wave"		"debris/flesh7.wav"
 	}
 }
 
@@ -2223,9 +2216,9 @@
 	"channel"	"CHAN_STATIC"
 	"rndwave"
 	{
-		"wave" "physics/wood/wood_plank_impact_hard1.wav"
-		"wave" "physics/wood/wood_plank_impact_hard2.wav"
-		"wave" "physics/wood/wood_plank_impact_hard3.wav"
+		"wave"		"debris/wood1.wav"
+		"wave"		"debris/wood2.wav"
+		"wave"		"debris/wood3.wav"
 	}
 }
 
@@ -2281,7 +2274,9 @@
 	"channel"	"CHAN_STATIC"
 	"rndwave"
 	{
-		"wave"	"physics/concrete/concrete_break2.wav"	
+		"wave"		"debris/concrete1.wav"
+		"wave"		"debris/concrete2.wav"
+		"wave"		"debris/concrete3.wav"
 	}
 }
 
@@ -2903,11 +2898,9 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"	"physics/wood/wood_solid_impact_bullet1.wav"
-		"wave"	"physics/wood/wood_solid_impact_bullet2.wav"
-		"wave"	"physics/wood/wood_solid_impact_bullet3.wav"
-		"wave"	"physics/wood/wood_solid_impact_bullet4.wav"
-		"wave"	"physics/wood/wood_solid_impact_bullet5.wav"
+		"wave"		"debris/wood1.wav"
+		"wave"		"debris/wood2.wav"
+		"wave"		"debris/wood3.wav"
 	}
 }
 
@@ -3546,12 +3539,11 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"volume"		"0.7"
-	"pitch"			"PITCH_NORM"
+	"pitch"		"96,111"
 	"rndwave"
 	{
-		"wave"	"physics/metal/metal_box_impact_bullet1.wav"
-		"wave"	"physics/metal/metal_box_impact_bullet2.wav"
-		"wave"	"physics/metal/metal_box_impact_bullet3.wav"
+		"wave"		"player/pl_duct1.wav"
+		"wave"		"player/pl_duct2.wav"
 	}
 }
 
