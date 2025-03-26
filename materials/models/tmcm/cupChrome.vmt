@@ -1,4 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/tmcm/cupChrome"
+	"$basetexture" "models/tmcm/cupchrome"
+	$envmap env_cubemap
+	$halflambert 1
 }

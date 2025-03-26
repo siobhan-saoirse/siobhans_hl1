@@ -47,7 +47,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"Weapon sway scale"
 		{ SLIDER 0 5 }
-		{ "5" }
+		{ "1.5" }
 	}
 
 	"hl1_cl_bob_won"

@@ -933,7 +933,7 @@
 "Weapon_Gluon.Start"
 {
 	"channel"		"CHAN_WEAPON"
-	"pitch"			"98"
+	"pitch"			"125"
 	"volume"		"1.0"
 	"soundlevel"		"SNDLVL_GUNFIRE"
 
@@ -942,8 +942,8 @@
 
 "Weapon_Gluon.Run"
 {
-	"channel"		"CHAN_STATIC"
-	"pitch"			"98"
+	"channel"		"CHAN_WEAPON"
+	"pitch"			"125"
 	"volume"		"1.0"
 	"soundlevel"		"SNDLVL_GUNFIRE"
 
@@ -953,7 +953,7 @@
 "Weapon_Gluon.Off"
 {
 	"channel"		"CHAN_WEAPON"
-	"pitch"			"98"
+	"pitch"			"100"
 	"volume"		"1.0"
 	"soundlevel"		"SNDLVL_140db"
 
