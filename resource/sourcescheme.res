@@ -194,10 +194,10 @@ Scheme
 		MainMenu.Backdrop			"0 0 0 156"
 		Console.TextColor			"OffWhite"
 		Console.DevTextColor		"White"
-		Frame.FocusTransitionEffectTime	"0.3"							// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.3"				[$WIN32]	// time it takes for a window to fade in/out on open/close
-		Frame.TransitionEffectTime		"0.2"				[$X360]		// time it takes for a window to fade in/out on open/close
-		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
+		//Frame.FocusTransitionEffectTime	"0.3"							// time it takes for a window to fade in/out on focus/out of focus
+		//Frame.TransitionEffectTime		"0.3"				[$WIN32]	// time it takes for a window to fade in/out on open/close
+		//Frame.TransitionEffectTime		"0.2"				[$X360]		// time it takes for a window to fade in/out on open/close
+		//PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 	}
 
 	//
@@ -216,7 +216,6 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"16"
 				"weight"	"0"
-				"antialias" "1"
 			}
 		}
 		"DefaultUnderline"
@@ -236,7 +235,6 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"13"
 				"weight"	"0"
-				"antialias" "1"
 			}
 		}
 		"DefaultVerySmall"
@@ -246,7 +244,6 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"12"
 				"weight"	"0"
-				"antialias" "1"
 			}
 		}
 		"MenuLarge"
@@ -256,7 +253,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"18"
 				"weight"	"1000"
-				"antialias" "1"
+				"antialias" "0"
 			}
 		}
 		"UiHeadline"
@@ -266,7 +263,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"16"
 				"weight"	"1000"
-				"antialias" "1"
+				"antialias" "0"
 			}
 		}
 
@@ -279,7 +276,6 @@ Scheme
 				"tall"		"14"
 				"weight"	"0"
 				"symbol"	"1"
-				"antialias" "1"
 			}
 		}
 		
@@ -292,7 +288,6 @@ Scheme
 				"weight"	"600"
 				"yres"	"480 599"
 				"dropshadow"	"1"
-				"antialias" "1"
 			}
 			"2"
 			{
@@ -301,7 +296,6 @@ Scheme
 				"weight"	"600"
 				"yres"	"600 767"
 				"dropshadow"	"1"
-				"antialias" "1"
 			}
 			"3"
 			{
@@ -310,7 +304,6 @@ Scheme
 				"weight"	"600"
 				"yres"	"768 1023"
 				"dropshadow"	"1"
-				"antialias" "1"
 			}
 			"4"
 			{
@@ -319,7 +312,6 @@ Scheme
 				"weight"	"600"
 				"yres"	"1024 1199"
 				"dropshadow"	"1"
-				"antialias" "1"
 			}
 			"5"
 			{
@@ -328,7 +320,6 @@ Scheme
 				"weight"	"600"
 				"yres"	"1200 6000"
 				"dropshadow"	"1"
-				"antialias" "1"
 			}
 		}	
 		
@@ -352,7 +343,6 @@ Scheme
 				"weight"	"700"
 				"antialias"	"1"
 				"yres"	"1 10000"
-				"antialias" "1"
 			}
 		}
 		"ConsoleText"
@@ -366,7 +356,6 @@ Scheme
 				"tall"		"14" [$LINUX]
 				"tall"		"10"
 				"weight"	"500"
-				"antialias" "1"
 			}
 		}
 	}
