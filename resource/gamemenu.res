@@ -35,6 +35,12 @@
 		"notmulti" "1"
 		"HelpText" "#GameUI_MainMenu_Hint_LoadGame"
 	}
+	"9.1"
+	{
+		"label" "#GameUI_TrainingRoom"
+		"command" "engine map t0a0"
+		"notmulti" "1"
+	}
 	"14"
 	{
 		"label" "#GameUI_GameMenu_FindServers"
